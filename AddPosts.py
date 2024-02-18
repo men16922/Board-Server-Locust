@@ -6,7 +6,7 @@ class AddPosts(HttpUser):
     wait_time = between(1, 2)
 
     def on_start(self):
-        self.client.post("/users/sign-in", json={"userId": "topojs9",
+        self.client.post("/users/sign-in", json={"userId": "topojs14",
                                                  "password": "123"})
 
     @task
